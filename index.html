@@ -12,7 +12,7 @@
     <!-- css slick -->
     <link rel="stylesheet" href="./js-css/slick.css">
     <link rel="stylesheet" href="./js-css/slick-theme.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,14 +92,14 @@
                 <div class="carousel-item active">
                     <div class="overlay"></div>
                     <div class="carousel-caption container">
-                        <h2>
+                        <h2 class=" wow animate__animated animate__flipInX  animate__delay-1s">
                             We will solve your issues our vision to your future
                         </h2>
-                        <p>
+                        <p class=" wow animate__animated animate__fadeInDown">
                             Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
                         </p>
-                        <button class="btn btn-primary">
+                        <button class="btn btn-primary wow animate__animated animate__fadeInUp animate__delay-1s">
                             Contact Now
                         </button>
                     </div>
@@ -357,7 +357,12 @@
         crossorigin="anonymous"></script>
     <!-- slickjs -->
     <script src="./js-library/slick.min.js"></script>
-
+    <!-- wowJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script src="./main.js"></script>
 </body>
 

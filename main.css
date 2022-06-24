@@ -96,7 +96,28 @@ body {
     height: 80px;
     background-color: var(--bg-color);
     transition: all 0.5s;
+    padding:10px 0;
 
+}
+
+#header__corp.fixed-scroll .nav-link{
+    color: var(--heading-color);
+   opacity: 0.7;
+}
+#header__corp.fixed-scroll .navbar-corp{
+    color: var(--heading-color);
+}
+#header__corp.fixed-scroll span.logo{
+    color: var(--heading-color);
+
+}
+#header__corp.fixed-scroll .header__switch-moon{
+    color: var(--heading-color);
+   opacity: 0.8;
+
+}
+#header__corp.fixed-scroll .nav-item.active a{
+color: var(--green);
 }
 .navbar-corp {
    font-size: 3rem;
