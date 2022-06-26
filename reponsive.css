@@ -5,6 +5,9 @@
     }
 }
 
+@media (max-width: 480px){
+    
+}
 @media (max-width: 575.98px) {
     #carousel__corp .carousel-item {
         height: 550px;
