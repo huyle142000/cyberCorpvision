@@ -46,3 +46,21 @@ window.addEventListener('scroll', ()=>{
 
     }
 })
+
+var navBarMobile = document.getElementById('nav__mobile');
+console.log( navBarMobile.classList.remove('.fa-solid'))
+navBarMobile.addEventListener('click', ()=>{
+    var navBaricon = document.getElementById('nav-icon-mobile-bar');
+    var navXicon = document.getElementById('nav-icon-mobile-x');
+    navBaricon.classList.toggle('show');
+    navXicon.classList.toggle('show');
+
+    var body = document.querySelector('body');
+    body.classList.toggle('hidden-bar');
+    
+    var menuPrimary= document.getElementById('navbarSupportedContent');
+    menuPrimary.classList.toggle('hidden');
+    
+    var headerCorp = document.getElementById('header__corp')
+    headerCorp.classList.toggle('mobile-se')
+});
