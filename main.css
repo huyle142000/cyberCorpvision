@@ -65,7 +65,7 @@ body {
 
 .title h2 {
     color: var(--heading-color);
-    font-size: 3.55rem;
+    font-size: 3.52rem;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -455,14 +455,11 @@ body.hidden {
     max-width: 600px;
     margin-top: 20px;
     color: #fff;
+    opacity: 0.9;
 }
 
-#carousel__corp .carousel-control-next-icon:focus-visible {
-    /* outline: none; */
-}
-
-.carousel-control-next-icon:focus {
-    /* outline: none; */
+.carousel-control-next.none,.carousel-control-prev.none{
+z-index: 0;
 }
 
 .carousel-control-next,
@@ -549,24 +546,19 @@ svg {
 
 }
 
-.aboutus__right-right img:nth-child(1) {
-    margin: 35px 0;
+.aboutus__right-img1{
+    margin: 30px 0;
 }
 
-.title p {
+.title p:nth-child(1) {
     color: #7e7d7d;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
 
 }
 
-.title h2 {
-    color: var(--heading-color);
-    font-size: 3.55rem;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
 
 .title p:nth-child(3) {
     color: var(--font-color);
@@ -578,7 +570,7 @@ svg {
 
 .aboutus__left li {
     margin-top: 15px;
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     color: var(--heading-color);
     font-weight: 600;
 }
@@ -588,6 +580,7 @@ svg {
     padding: 4px;
     border-radius: 50%;
     font-size: 1rem;
+    margin-right: 3px;
 }
 
 .fa-check:before {
@@ -613,18 +606,21 @@ svg {
 
 .challenge__item-wrap {
     background-color: var(--bg-color);
-    padding: 40px;
+    padding: 40px 30px;
     border-radius: 8px;
     transition: all 0.5s;
     box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
-    padding: 12px 4px;
 }
-
+.challenge__item-wrap img{
+    max-width: 65px;
+}
 .challenge__item-wrap:hover {
     transform: translateY(-10px);
     box-shadow: rgb(71 63 79 / 16%) 0px 5px 10px;
 }
-
+.challenge__item-wrap.title-hover p{
+    font-size: 2.2rem;
+}
 .title-hover:hover p {
     color: var(--green);
 
@@ -642,6 +638,7 @@ svg {
 /* service */
 .service__item {
     position: relative;
+    padding-bottom: 30px;
 }
 
 .service {
@@ -662,10 +659,18 @@ opacity: 0.8;
 margin-top: 50px;
     
 }
+.service__title.title-hover p{
+    font-size: 1.9rem;
+    
+}
 .title-hover p{
     font-size: 1.7rem;
     opacity: 1;
-    margin: 40px 0;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.title-hover.button p{
+    font-size: 1.58rem;
 }
 
 
@@ -685,7 +690,7 @@ margin-top: 50px;
     display: block;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 230px;
+    width: 245px;
     background-color: var(--bg-color);
     margin: 0;
     border-radius: 10px;

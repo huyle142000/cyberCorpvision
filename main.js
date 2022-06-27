@@ -9,14 +9,22 @@ btnSearch.addEventListener('click',()=>{
     searchIcon.classList.toggle('opa-0');
     inputSearch.classList.toggle('show');
     tiClose.classList.toggle('opa-1')
+    var carouselNext = document.querySelector('.carousel-control-next')
+    var carouselPrev = document.querySelector('.carousel-control-prev')
+    carouselNext.classList.toggle('none')
+    carouselPrev.classList.toggle('none')
     body.classList.toggle('hidden')
 })
+var carouselNext = document.querySelector('.carousel-control-next')
+console.log(carouselNext)
 tiClose.addEventListener('click',()=>{
     btnSearch.classList.toggle('js-search');
     searchIcon.classList.toggle('opa-0');
     inputSearch.classList.toggle('show');
     tiClose.classList.remove('opa-1')
     body.classList.toggle('hidden')
+    
+
 })
 
 var sunIcon= document.querySelector('.header__switch-sun');

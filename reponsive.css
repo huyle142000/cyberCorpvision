@@ -1,56 +1,127 @@
 @media (min-width: 1280px) {
-
+    .carousel-caption h2 {
+        font-size:5.5rem;
+    }
     .container {
         max-width: 1200px;
     }
 }
-@media (max-width: 1199.98px) {}
+
+@media (max-width: 1199.98px) {
+    
+    .service__title.title-hover p {
+        padding: 0 32px;
+        font-size: 1.9rem;
+    }
+
+    .service__title-details .service__title-1 {
+        margin-top: 75px;
+    }
+
+    .service__title.title-hover {
+        padding: 9px 0;
+    }
+
+    .title-hover.button p {
+        margin-top: 30px;
+    }
+
+    .service__title {
+        width: 230px;
+    }
+
+    .service__title1 {
+        width: 200px;
+    }
+
+    .service__title {
+        top: 40.5%;
+    }
+}
+
 @media (max-width: 991.98px) {
-    .aboutus__right .row .col-6{
+    .aboutus__left ul{
+        margin-bottom: 47px;
+    }
+    #header__corp.fixed-scroll.mobile-se {
+        background-color: var(--bg-color);
+    }
+    .carousel-item:nth-child(1),.carousel-item:nth-child(2),.carousel-item:nth-child(3){
+        height:700px;
+    }
+    
+    .service__title {
+        padding: 12px 0;
+        width: 260px;
+        top: 43%;
+    }
+
+    .service__title1 {
+        width: 200px;
+    }
+
+    .service__title.title-hover p {
+        font-size: 1.9rem;
+    }
+
+    .aboutus__right .row .col-6 {
         padding: 0 15px;
     }
-    .aboutus__right-right img:nth-child(1){
-        margin: 20px 0;
+
+    .aboutus__right-img1 {
+        margin: 30px 0;
     }
-    .aboutus__left li{
+
+    .aboutus__left li {
         margin-top: 6px;
     }
-    .title p:nth-child(3){
+
+    .title p:nth-child(3) {
         font-size: 1.7rem;
     }
-    .title h2{
-        font-size: 2.6rem;
+
+    .title h2 {
+        font-size: 3.2rem;
     }
-    .control-prev-icon{
+
+    .control-prev-icon {
         padding: 16px;
     }
-    .control-next-icon{
+
+    .control-next-icon {
         padding: 16px;
     }
-    .carousel-control-next, .carousel-control-prev{
+
+    .carousel-control-next,
+    .carousel-control-prev {
         top: 83%;
         padding: 16px;
     }
-    .carousel__corp-slider{
+
+    .carousel__corp-slider {
         z-index: 0;
     }
-    .shape{
+
+    .shape {
         z-index: 1;
-        width: 101%;
     }
-    #carousel__corp .carousel-control-prev{
+
+    #carousel__corp .carousel-control-prev {
         right: 80px;
 
     }
-    button.carousel-control-next{
+
+    button.carousel-control-next {
         right: 15px;
     }
-    input.header__input-text{
+
+    input.header__input-text {
         padding-left: 40px;
     }
+
     .header__icon-close {
-        right: 6%;
-        top: 15%;
+        right: 3%;
+        top: 20%;
         font-size: 5rem;
 
     }
@@ -65,19 +136,21 @@
 
     .btn-primary {
         padding: 12px 30px;
+        font-size: 1.6rem;
     }
 
     .carousel-caption p {
-        font-size: 5.1vw;
+        font-size: 2vw;
 
     }
 
     .carousel-caption h2 {
-        font-size: 8.15vw;
+        font-size: 5rem;
     }
 
     #carousel__corp .carousel-caption {
         left: 0;
+        right: 0;
     }
 
     #header__corp.mobile-se {
@@ -170,21 +243,123 @@
 }
 
 @media (max-width: 767.98px) {
-    .service__title{
-        top:62%
+    .carousel-item:nth-child(1),.carousel-item:nth-child(2),.carousel-item:nth-child(3){
+        height:650px;
+    }
+    .carousel-caption p {
+        font-size: 1.8rem;
+
+    }
+    .challenge__item-wrap.title-hover p{
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 4.5rem;
+    }
+    .aboutus__right-img1{
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }   
+    .challenge__item-wrap {
+        padding: 1.5rem;
+    }
+
+    .service__title {
+        top: 55%;
+    }
+    .challenge__item{
+        padding: 8px;
     }
 }
+
 @media (max-width: 575.98px) {
+    .carousel-item:nth-child(1),.carousel-item:nth-child(2),.carousel-item:nth-child(3){
+        height:600px;
+    }
+    .title h2{
+        font-size: 3rem;
+    }
+    .carousel-caption h2 {
+        font-size: 4rem;
+    }
+    .service__title {
+        top: 54%;
+    }
     #carousel__corp .carousel-item {
         height: 550px;
     }
-}
 
-@media (max-width: 480px){
-    .aboutus__right .row .col-6{
-        padding: 0 5px;
+    .challenge__item-wrap img {
+        width: 45px;
     }
 }
 
+@media (max-width: 480px) {
+    .carousel-caption h2 {
+        font-size: 3.25rem;
+    }
+    .service__title {
+        top: 47.5%;
+    }
+    .btn-primary {
+        margin-bottom: 20px;
+        padding: 10px 30px;
+    }
 
+    .aboutus__right .row .col-6 {
+        padding: 0 5px;
+    }
 
+    .title-hover p {
+        margin: 20px 0;
+    }
+
+    .title h2 {
+        font-size: 2.6rem;
+    }
+
+    .challenge__item-wrap {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 376px) {
+    .aboutus__left li {
+        font-size: 1.6rem;
+    }
+    .aboutus__left ul{
+        margin-bottom: 30px;
+    }
+    .title h2{
+        font-size: 2.55rem;
+    }
+    .carousel-caption h2 {
+        font-size: 2.75rem;
+    }
+    .service__title {
+        top: 43%;
+    }
+    .challenge__item-wrap.title-hover p {
+        font-size: 1.8rem;
+    }
+
+    .col-320 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media (max-width: 321px) {
+    .col-320 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
