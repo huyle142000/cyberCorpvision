@@ -2,6 +2,7 @@
     .carousel-caption h2 {
         font-size:5.5rem;
     }
+
     .container {
         max-width: 1200px;
     }
@@ -361,5 +362,45 @@
         padding: 0;
         padding-left: 15px;
         padding-right: 15px;
+
+@media (max-width: 376px){
+
+    #progress .title-big {
+        font-size: 100%;
+        
+    }
+
+
+
+    .w3l-footer-29-main .footer-list-29 ul li {
+        margin-bottom: 1rem;
+    }
+
+    .w3l-footer-29-main .footer-list-29 ul li a {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    #progress.title-big {
+        
+        line-height: 3rem;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+    .title-big {
+        font-size: 100%;
     }
 }
