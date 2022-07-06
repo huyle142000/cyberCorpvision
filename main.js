@@ -18,6 +18,10 @@ btnSearch.addEventListener('click',()=>{
 var carouselNext = document.querySelector('.carousel-control-next')
 console.log(carouselNext)
 tiClose.addEventListener('click',()=>{
+    var carouselNext = document.querySelector('.carousel-control-next')
+    var carouselPrev = document.querySelector('.carousel-control-prev')
+    carouselNext.classList.toggle('none')
+    carouselPrev.classList.toggle('none')
     btnSearch.classList.toggle('js-search');
     searchIcon.classList.toggle('opa-0');
     inputSearch.classList.toggle('show');
