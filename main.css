@@ -378,7 +378,6 @@ body.hidden {
     width: 100%;
 }
 
-.carousel-inner {}
 
 .carousel-item:nth-child(1) {
     background-image: url(https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/b1.jpg);
@@ -594,7 +593,6 @@ svg {
 }
 
 /* title hover */
-.title-hover p:hover {}
 
 /* Challenge */
 
