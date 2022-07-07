@@ -527,6 +527,14 @@ body {
     color: var(--font-color);
     opacity: .8;
 }
+.testimonial-content {
+    margin-top: 25px;
+}
+
+#testimonials .slick-dots {
+   bottom: -43px;
+}
+
 .testi-des {
     display: grid;
     grid-auto-flow: column;
@@ -571,21 +579,30 @@ body {
     color: #8c96af;
     /* transform: scale(1.5); */
 }
-
+.testimonial-width .slick-dots li button:hover {
+    color: #213364;
+    opacity: 1;
+    transition: all .5s;
+    transform: scale(1.3);
+   
+}
 
 
 .testimonial-width .slick-dots li.slick-active button:before{
-   color: #213364;
-   font-size: 50px;
-  opacity: 1;
-  transform: scale(1.5);
+    color: #213364;
+    transition: all .5s;
+    transform: scale(1.3);
+    opacity: 1;
 }
 .testimonial-width .slick-dots li.slick-active button:hover {
     color: #213364;
-    /* transform: scale(1.5); */
+
     transition: all .5s;
     transform: scale(1);
 }
+
+
+
 /* blog */
 .blog .title-small {
     font-size: 14px;
