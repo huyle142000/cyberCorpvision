@@ -1121,7 +1121,7 @@ border-bottom:none ;
 
 /* testimonial */
 .w3l-testimonials {
-    background: #f8f9fa;
+    background-color:var(--bg-div);
 }
 
 #testimonials .title-small {
