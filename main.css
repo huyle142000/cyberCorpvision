@@ -139,7 +139,12 @@ body {
 #header__corp.fixed-scroll .nav-item.active a {
     color: var(--green);
 }
-
+#header__corp .nav-item .nav-link{
+   transition: all 0.5s;
+    }
+#header__corp .nav-item:hover .nav-link{
+opacity: 0.7;
+}
 .navbar-corp {
     font-size: 3rem;
     color: #fff;
