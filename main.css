@@ -127,20 +127,6 @@ body {
     transform: scale(1.1);
 }
 
-/* .ourgallery .item {
-    height: 100%;
-    overflow: hidden;
-   
-}
-.ourgallery .item img {
-    transition: .5s ease-in-out;
-}
-.ourgallery .item a:hover img {
-    transform: scale(1.1);
-} */
-
-
-
 
 .card-img-bottom {
     flex-shrink: 0;
