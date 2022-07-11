@@ -95,7 +95,9 @@ body {
 .navbar-brand {
     cursor: pointer;
 }
-
+#header__corp .navbar{
+    padding: 0;
+}
 
 #header__corp {
     position: fixed;
@@ -156,6 +158,7 @@ opacity: 0.7;
 #header__corp .logo {
     display: block;
     margin-left: 45px;
+    opacity: 0.9;
 }
 
 .dropdown-toggle::after {
@@ -1196,14 +1199,15 @@ border-bottom:none ;
     font-size: 17px;
 }
 .testimonial-width .slick-dots li button {
-    color: #8c96af;
+    opacity: 1;
 }
 .testimonial-width .slick-dots li button:before {
-    font-size: 50px;
-    color: #8c96af;
+    font-size: 44px;
+    color: #213364;
+    opacity: 0.5;
     /* transform: scale(1.5); */
 }
-.testimonial-width .slick-dots li button:hover {
+.testimonial-width .slick-dots li:hover button:before {
     color: #213364;
     opacity: 1;
     transition: all .5s;
@@ -1451,7 +1455,6 @@ footer .navbar-brand span.logo {
     text-transform: none;
     display: block;
     font-size: 14px;
-    padding-left: 46px;
     font-weight: 600;
     opacity: .9;
 }
@@ -1466,6 +1469,7 @@ footer p {
     font-size: 18px;
     line-height: 28px;
     color: #97a1a9;
+    opacity: 0.8;
 }
 footer h6.footer-title-29 {
     font-size: 22px;

@@ -9,7 +9,9 @@
 }
 
 @media (max-width: 1199.98px) {
-    
+    .navbar-corp {
+        font-size: 3.2rem;
+    }
     .service__title.title-hover p {
         padding: 0 32px;
         font-size: 1.9rem;
@@ -41,6 +43,12 @@
 }
 
 @media (max-width: 991.98px) {
+    span.fa.fa-align-right{
+        top: 6px;
+    }
+    footer h6.footer-title-29{
+        font-size: 20px;
+    }
     .aboutus__left ul{
         margin-bottom: 47px;
     }
@@ -131,9 +139,7 @@
         padding-top: 20px;
     }
 
-    .navbar-corp {
-        font-size: 2.6rem;
-    }
+  
 
     .btn-primary {
         padding: 12px 30px;
@@ -178,18 +184,18 @@
     .header__search-icon {
         position: absolute;
         top: 0;
-        right: 100px;
+        right: 80px;
         width: 40px;
         height: 40px;
         line-height: 4.2rem;
-        top: 14px;
+        top: 10px;
 
     }
 
     .header__switch {
         position: absolute;
-        top: 20px;
-        right: 64px;
+        top: 18px;
+        right: 45px;
         font-size: 1.6rem;
     }
 
@@ -207,8 +213,12 @@
         padding: 0;
         padding-bottom: 10px;
     }
-
+    .navbar-toggler{
+        padding: 0;
+    }
     .navbar-toggler-icon {
+        margin-top: 4px;
+        margin-left: 5px;
         padding: 5px;
         color: #fff;
         background-color: var(--green);
@@ -301,6 +311,20 @@
 }
 
 @media (max-width: 480px) {
+    #header__corp .logo{
+        font-size: 1.3rem;
+        margin-left: 40px;
+        
+    }
+    .navbar-corp{
+        font-size: 2.6rem;
+    }
+    footer p{
+        font-size: 17px;
+    }
+    .ourgallery .company-logos .logo{
+        padding: 0 8px;
+    }
     .carousel-caption h2 {
         font-size: 3.25rem;
     }
@@ -330,6 +354,9 @@
 }
 
 @media (max-width: 376px) {
+    .ourgallery .company-logos .logo{
+        padding: 0 2px;
+    }
     #progress .title-big {
         font-size: 100%;
         
